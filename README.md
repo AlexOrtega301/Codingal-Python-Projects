@@ -1,75 +1,103 @@
-# 🐍 Codingal Python Projects
+# Codingal Python Projects
 
-Colección de proyectos, ejercicios y prácticas en **Python**, enfocados principalmente en **Programación Orientada a Objetos (OOP)**, estructuras de datos y scripts educativos.
+A collection of **Python practice projects and exercises** created while learning programming through Codingal.
 
-Este repositorio funciona como un **laboratorio personal de aprendizaje**, donde cada carpeta representa un concepto clave del lenguaje y su uso práctico.
-
----
-
-## 📂 Contenido del repositorio
-
-### 🔹 Clases y Programación Orientada a Objetos
-- **Class/**  
-  Ejemplos básicos de clases en Python con métodos personalizados.
-- **OOPTasks/**  
-  Ejercicios de OOP con clases como robots e introducción a la lógica orientada a objetos.
-- **OOPInheritance/**  
-  Ejemplos de herencia y abstracción (clases de animales y movimiento).
-- **Constructors&Destructors.py**  
-  Uso de constructores (`__init__`) y destructores (`__del__`).
-
-### 🔹 Estructuras de datos y lógica
-- **Dictionaries/**  
-  Uso de diccionarios, sets y operaciones entre conjuntos.
-- **tasks/**  
-  Ejercicios generales de lógica y expresiones matemáticas.
-
-### 🔹 Gráficos
-- **Turtles/**  
-  Scripts gráficos usando `turtle`, incluyendo espirales y animaciones visuales.
-
-### 🔹 Proyectos completos
-- **LMS.py**  
-  Sistema simple de gestión de biblioteca (Library Management System).
+This repository focuses on building a solid foundation in Python by exploring different programming concepts through small tasks and experiments.
 
 ---
 
-## 🎯 Objetivo del repositorio
+## 🐍 Topics Covered
 
-- Practicar Python desde nivel principiante a intermedio  
-- Aprender Programación Orientada a Objetos de forma práctica  
-- Experimentar con ideas sin miedo a romper cosas  
-- Construir una base sólida para proyectos más grandes  
+The projects in this repository explore several important Python concepts, including:
 
-Este repositorio **no es una librería profesional**, es un espacio de aprendizaje y experimentación.
+* **Classes**
+* **Dictionaries**
+* **File Handling**
+* **Object-Oriented Programming (OOP) Tasks**
+* **OOP Inheritance**
+* **Tkinter (GUI Applications)**
+* **Turtle Graphics**
+* **General Programming Tasks**
 
----
-
-## 🔗 Proyectos HTML
-
-Para proyectos en **HTML y desarrollo web**, visita el repositorio hermano:
-
-👉 https://github.com/Codingal-MrKefaClass
+Each folder contains small programs designed to practice and understand these concepts through real code.
 
 ---
 
-## 🧠 Tecnologías usadas
+## 📂 What You Will Find
 
-- Python 3  
-- Programación Orientada a Objetos  
-- Turtle Graphics  
-- Estructuras de datos básicas  
+Inside this repository you may find:
+
+* Beginner Python exercises
+* Small automation scripts
+* GUI experiments using **Tkinter**
+* Visual programs created with **Turtle**
+* Object-oriented programming examples
+* File reading and writing projects
+
+These programs are designed as **learning experiments** rather than large production projects.
 
 ---
 
-## 🚀 Estado del proyecto
+## 🌐 Related Projects
 
-📌 En desarrollo constante  
-📌 Se agregan nuevos scripts y ejemplos regularmente  
+### 💻 HTML, CSS, and JavaScript Projects
+
+Repository:
+https://github.com/AlexOrtega301/Codingal-HTML-Projects/tree/main
+
+This repository contains web development projects including:
+
+* HTML page structures
+* CSS styling experiments
+* JavaScript features and interactivity
+* Frontend practice projects
 
 ---
 
-## 📜 Nota final
+### 🛰️ NASA Space Apps Hackathon Project
 
-Este repositorio representa progreso real: aprender, equivocarse, mejorar y repetir.  
-El código no tiene que ser perfecto; tiene que enseñar algo.
+1st Place — **Guerrero, Atoyac de Álvarez (2025)**
+
+Project Repository:
+https://github.com/Dancin-Bros-NASA-Hackathon-GEE-API
+
+This project was created during the **NASA Space Apps Challenge** and focuses on using the **Google Earth Engine API** to work with environmental and satellite data.
+
+---
+
+### 🟢 Node.js and SQL Projects
+
+Repository:
+https://github.com/AlexOrtega301/Codingal-Node.JS-Projects
+
+Contains backend experiments including:
+
+* Node.js servers
+* API experiments
+* SQL database practice
+* Backend logic examples
+
+---
+
+
+## 🎯 Purpose
+
+The goal of this repository is to document the learning journey of programming with Python.
+
+Programming is learned best through experimentation.
+Small programs lead to bigger ideas, and bigger ideas lead to better software.
+
+---
+
+## 📜 License
+
+This project is shared for **educational purposes**.
+Anyone is welcome to explore the code and learn from it.
+
+---
+
+## 👨‍💻 Author
+
+**David Alejandro Ortega García**
+
+Student programmer interested in web development, scripting, and software experimentation.
