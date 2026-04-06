@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Date Difference Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>📅 Date Difference Calculator</h1>
+
+    <form action="/calculate" method="POST">
+        <label>Start Date:</label>
+        <input type="date" name="date1" required>
+
+        <label>End Date:</label>
+        <input type="date" name="date2" required>
+
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if result %}
+        <div class="card">
+            <h2>Difference:</h2>
+            <p><strong>Days:</strong> {{ result.days }}</p>
+            <p><strong>Months (approx):</strong> {{ result.months }}</p>
+            <p><strong>Years (approx):</strong> {{ result.years }}</p>
+        </div>
+    {% endif %}
+
+    {% if error %}
+        <div class="error">
+            {{ error }}
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
