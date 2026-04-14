@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+</head>
+<body>
+    <div align="center">
+        <div class="border">
+            <div class="header">
+                <h1 class="word">Welcome</h1>
+            </div>
+
+            <h2 class="bottom">
+                Hi {{ name }}! <br><br>
+                {{ msg }} <br><br>
+                You are welcome <br><br>
+                Happy to have you here...
+                I made this in my codingal class
+            </h2>
+
+            <a href="/logout" class="btn">Log Out</a>
+        </div>
+    </div>
+</body>
+</html>
