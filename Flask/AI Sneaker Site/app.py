@@ -1,6 +1,6 @@
-﻿"""Lesson 4 — Building Dynamic Sneaker Requests with JSON and Fetch
-Goal: Add /generate-image route + HuggingFace FLUX image generation.
-After concept loads, the image section fetches and displays the AI render.
+﻿"""Lesson 5 — Creating Sneaker Visuals and Design Variations
+Goal: SVG colorway explorer — switch tabs to recolor the sneaker live.
+AI image generates alongside the concept. History still empty (Lesson 6).
 Run: python app.py  →  visit http://localhost:5000
 """
 import os, json, base64, requests
@@ -115,6 +115,7 @@ def studio():
 
 @app.route("/history")
 def history():
+    # History persistence added in Lesson 6
     return render_template("history.html", designs=[])
 
 
