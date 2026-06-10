@@ -1,0 +1,7 @@
+print("mi nombre es alex")
+print("Y soy un genio :)")
+print ("Y tengo un gran maestro que se llama (juan camilo ferreira)")
+print("Estudio Muchos Idiomas Como El Latín ,El Hebreo, El Japones, El Ingles, El Francés, El Chino, El Aleman, ")
+print("y estudio en Kodland.org")
+print("Mucahs gracias :)")
+print("W☺")
