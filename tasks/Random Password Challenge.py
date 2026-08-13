@@ -1,21 +1,18 @@
-# create class
-class Parrot:
-    # class attribute
-    species = "bird"
+import random
+import string
 
-    # instance attribute
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+def generate_password(length=12):
+    # Define possible characters: lowercase, uppercase, digits
+    characters = string.ascii_lowercase + string.ascii_uppercase + string.digits
+    
+    # Randomly choose characters
+    password = ''.join(random.choice(characters) for _ in range(length))
+    
+    # Shuffle the password to make it less predictable
+    password_list = list(password)
+    random.shuffle(password_list)
+    
+    return ''.join(password_list)
 
-# instantiate the Parrot class
-blu = Parrot("Blu", 10)
-woo = Parrot("Woo", 15)
-
-# access the class attributes
-print("Blu is a {}".format(blu.species))
-print("Woo is also a {}".format(woo.species))
-
-# access the instance attributes
-print("{} is {} years old".format(blu.name, blu.age))
-print("{} is {} years old".format(woo.name, woo.age))
+# Example usage
+print("Generated Password:", generate_password(12))
